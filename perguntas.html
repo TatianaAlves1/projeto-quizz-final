@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <title>Página de Perguntas</title>  
+</head>
+<body class="body-bg">
+    <header>
+        <h2 class="titulo-pagina">Seja bem-vindo, usuário!</h2>
+    </header>
+    <main class="bloco-perguntas">
+        <form action="final.html" id="regForm">
+            <div class="pergunta tab">
+                <label for="" class="txt-pergunta">Questão 1</label>
+                
+                <label for="" class="opcao">
+                    <input type="radio" name="q1" id="" checked>
+                    resposta 1 
+                </label>
+                
+                <label for="" class="opcao">
+                    <input type="radio" name="q1" id="">
+                    resposta 2
+                    
+                </label>
+                <label for="" class="opcao">
+                    <input type="radio" name="q1" id="">
+                    resposta 3
+                    
+                </label>
+                <label for="" class="opcao">
+                    <input type="radio" name="q1" id="">
+                    resposta 4                
+                    
+                </label>
+                <label for="" class="opcao">
+                    <input type="radio" name="q1" id="">
+                    resposta 5    
+                </label>
+            </div>
+            <div class="pergunta tab">
+                <label for="" class="txt-pergunta">Questão 2</label>
+                
+                <label for="" class="opcao">
+                    <input type="radio" name="q2" id="" checked>
+                    resposta 1 
+                </label>
+                
+                <label for="" class="opcao">
+                    <input type="radio" name="q2" id="">
+                    resposta 2
+                    
+                </label>
+                <label for="" class="opcao">
+                    <input type="radio" name="q2" id="">
+                    resposta 3
+                    
+                </label>
+                <label for="" class="opcao">
+                    <input type="radio" name="q2" id="">
+                    resposta 4                
+                    
+                </label>
+                <label for="" class="opcao">
+                    <input type="radio" name="q2" id="">
+                    resposta 5    
+                </label>
+            </div>
+            <div class="pergunta tab">
+                <label for="" class="txt-pergunta">Questão 3</label>
+                
+                <label for="" class="opcao">
+                    <input type="radio" name="q3" id="" checked> 
+                    resposta 1 
+                </label>
+                
+                <label for="" class="opcao">
+                    <input type="radio" name="q3" id="">
+                    resposta 2
+                    
+                </label>
+                <label for="" class="opcao">
+                    <input type="radio" name="q3" id="">
+                    resposta 3
+                    
+                </label>
+                <label for="" class="opcao">
+                    <input type="radio" name="q3" id="">
+                    resposta 4                
+                    
+                </label>
+                <label for="" class="opcao">
+                    <input type="radio" name="q3" id="">
+                    resposta 5    
+                </label>
+            </div>
+
+            <div class="btns">
+                <div>
+                  <button type="button" id="prevBtn" onclick="nextPrev(-1)">Anterior</button>
+                  <button type="button" id="nextBtn" onclick="nextPrev(1)">Próximo</button>
+                </div>
+              </div>
+              
+              <!-- Circles which indicates the steps of the form: -->
+              <div style="text-align:center;margin-top:40px;">
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+              </div>
+
+
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<script src="assets/js/multstep.js"></script>
+</html>
